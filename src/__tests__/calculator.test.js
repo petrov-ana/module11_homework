@@ -5,9 +5,9 @@ describe('tests for calculator function', () => {
 	it('getPercents', () => {
 		expect(getPercents(10, 100)).toBe(10)
 		expect(getPercents(40, 1486)).toBe(594.4)
-		expect(getPercents('str', 200)).toBe('Данные не верны')
-		expect(getPercents(30, 'str')).toBe('Данные не верны')
-		expect(getPercents(NaN, 1000)).toBe('Данные не верны')
+		expect(getPercents('str', 200)).toBe('Р”Р°РЅРЅС‹Рµ РЅРµ РІРµСЂРЅС‹')
+		expect(getPercents(30, 'str')).toBe('Р”Р°РЅРЅС‹Рµ РЅРµ РІРµСЂРЅС‹')
+		expect(getPercents(NaN, 1000)).toBe('Р”Р°РЅРЅС‹Рµ РЅРµ РІРµСЂРЅС‹')
 	})
 	it('createAdder', () => {
 		expect(createAdder(10)(100)).toBe(110)
