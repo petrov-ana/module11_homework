@@ -1,0 +1,27 @@
+{
+  "name": "module11_homework",
+  "version": "1.0.0",
+  "description": "Задание 7.5.4 (HW-01)",
+  "main": "1.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.19.4",
+    "babel-jest": "^26.1.0",
+    "cypress": "^4.10.0",
+    "jest": "^26.6.3"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petrov-ana/module11_homework.git"
+  },
+  "author": "petrov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petrov-ana/module11_homework/issues"
+  },
+  "homepage": "https://github.com/petrov-ana/module11_homework#readme"
+}
